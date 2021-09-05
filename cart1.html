@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,inital-scale=1.0">
+    <title>estore | Ecommerce Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div class="header">
+<div class="container">
+<div class="navbar">
+    <div class="logo">
+        <img src="images/logo1.png" width="125px">
+    </div>
+    <nav>
+        <ul id="MenuItems">
+        
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+    </nav>
+    <a href="Product-details.html"><img src="images/cart.png" width="30px" height="30px"></a>
+    <img src="images/menu.png" class="menu-icon" 
+    onclick="menutoggle()">
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<!-------------------------cart--------------->
+<div class="container">
+    <h1>Products
+        <div style="float:right;cursor:pointer;">
+            <span class="glyphicon glyphicon-shopping-cart my-cart-icon">
+                <span class="badge badge-notify my-cart-badge"></span>
+            </span>
+        </div>
+    </h1>
+
+<button type="addNewProduct" name="addNewProduct" id="addNewProduct">
+    Add New Product
+</button>
+
+<div class="row">
+    <div class="col-md-3 text-center">
+        <img src="images/product-2.jpg" width="270" height="270">
+        <br> <br>
+        Product 1-<strong>$10</strong>
+        <br> <br>
+
+        <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1" data-summary="summary 1" data-price="10" data-quantity="1" data-image="images/product-2.jpg">
+            Add To Cart
+        </button>
+        <a href="" class="btn btn-info">Details</a>
+    </div>
+
+
+<div class="col-md-3 text-center">
+        <img src="images/product-2.jpg" width="270" height="270">
+        <br> <br>
+        Product 1-<strong>$10</strong>
+        <br> <br>
+
+        <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1" data-summary="summary 1" data-price="10" data-quantity="1" data-image="images/product-2.jpg">
+            Add To Cart
+        </button>
+        <a href="" class="btn btn-info">Details</a>
+    </div>
+
+
+
+
+
+
+    <div class="col-md-3 text-center">
+        <img src="images/product-2.jpg" width="270" height="270">
+        <br> <br>
+        Product 1-<strong>$10</strong>
+        <br> <br>
+
+        <button class="btn btn-danger my-cart-btn" data-id="1" data-name="product 1" data-summary="summary 1" data-price="10" data-quantity="1" data-image="images/product-2.jpg">
+            Add To Cart
+        </button>
+        <a href="" class="btn btn-info">Details</a>
+    </div>
+
+
+
+
+
+</div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="jquery.mycart.js"></script>
+
+<script src="cart.js"></script>
+</body>
+</html>
